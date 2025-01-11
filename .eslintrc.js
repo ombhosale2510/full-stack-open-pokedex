@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    browser: true, // Fxiing the document error
     commonjs: true,
     es6: true,
     node: true, // Add this line
