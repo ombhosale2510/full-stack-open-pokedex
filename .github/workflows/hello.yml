@@ -12,5 +12,9 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+      - name: Print date
+        run: |
           echo $(date)
-          echo $(ls)
+      - name: Print Directory
+        run: |
+          echo $(ls -l)
